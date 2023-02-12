@@ -1,0 +1,19 @@
+body{
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.pagination a{
+    color: #111;
+    text-decoration: none;
+    padding: 10px 13px;
+    border-radius: 5px;
+}
+.pagination a.active{
+    background-color: #ccc;
+}
+.pagination a:hover:not(.active, :first-child, :last-child){
+    background-color: #262626;
+    color: #f4f4f4;
+}
